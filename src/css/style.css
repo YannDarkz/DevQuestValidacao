@@ -1,0 +1,143 @@
+body {
+    background-image: url(../image/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: 7vh;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+.formulario {
+
+    border-radius: 1rem;
+    min-width: 80rem;
+    min-height: 40rem;
+    display: flex;
+    padding: 1rem;
+   
+
+
+
+
+}
+
+.formulario .info-duvida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4vw;
+    gap: 1vh;
+    color: #fff;
+}
+
+.formulario .info-duvida h1 {
+    font-size: 2rem;
+    width: 28.7rem;
+    font-weight: 900;
+}
+
+.formulario .info-duvida p {
+    font-size: 1.5rem;
+    width: 30rem;
+    font-weight: 400;
+}
+
+
+.formulario form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 2rem 1rem 2rem 1rem;
+    width: 34rem;
+    margin-left: 6vw;
+
+}
+
+.formulario form ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.formulario form .input-form{
+     width: 29.8rem;
+    height: 3.5rem;
+    padding: 0.5rem 0 0 0.5rem;
+    border-radius: 1rem;
+}
+
+.formulario form .input-form::placeholder {
+    padding-left: 0.5rem;
+}
+
+.formulario form  .input-form.mensagem {
+    text-align: left;
+    padding: 0.5rem 0 0 0.5rem;
+    border-radius: 1rem;
+    width: 29.8rem;
+    height: 10rem;
+    
+}
+
+.formulario form .input-form.mensagem::placeholder {
+    position: absolute;
+    left: 0.4rem;
+    top: 0.5rem;
+}
+
+.formulario form h4 {
+    font-size: 1.5rem;
+    margin-bottom: 2vh;
+    }
+
+.formulario form .btn-form {
+    width: 29.8rem;
+    height: 4.1rem;
+    background-color: #3CCC87;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+
+.formulario form .btn-form:hover{
+    transform: scale(1.02);
+}
+
+.obrigatorio {
+    
+    display: none;
+}
+
+/* ativação inputs */
+
+.preenchido{
+    border: 1px solid #00C22B;
+}
+
+.nao-preenchido{
+    border: 1px solid red;
+}
+
+.obrigatorio-ativo {
+    color: red;
+    font-size: 0.8rem;
+   display: block;
+}
+
